@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.app {
+  text-align: center;
+}
+
+.timer {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #00ffcc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00ccaa;
+}
